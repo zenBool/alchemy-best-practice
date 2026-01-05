@@ -1,0 +1,21 @@
+[project]
+name = "sqlalchemyapp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ihor Alymov Corp FFS",email = "i0663343870@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click (>=8.3.1,<9.0.0)",
+    "sqlalchemy (>=2.0.45,<3.0.0)",
+    "contextvars-executor (>=0.0.1,<0.0.2)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "sadisplay (>=0.4.9,<0.5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
